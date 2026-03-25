@@ -1,6 +1,16 @@
-<?php 
+<?php
+
+declare(strict_types=1);
+
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
+use App\Domain\Agenda;
+use App\Domain\Contact;
+use App\Domain\ValueObject\Name;
+use App\Domain\ValueObject\Surname;
+use App\Domain\ValueObject\Email;
+use App\Domain\ValueObject\PhoneNumber;
 
 class ShowContactsTest extends TestCase
 {
